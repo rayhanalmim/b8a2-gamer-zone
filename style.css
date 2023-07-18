@@ -269,6 +269,9 @@ footer .margin{
     .sec2-card .img{
         padding-left: 100px;
     }
+    .sec3 .info{
+        padding-left: 20px;
+    }
     .sec3{
         flex-direction: column-reverse;
         padding-left: 50px;
@@ -327,6 +330,9 @@ footer .margin{
         text-align:center;
         font-size: 2rem;
         font-weight: 700;
+    }
+    .sec3 .info{
+        padding-left: 20px;
     }
     .sec2-card img{
         width: 90%;
