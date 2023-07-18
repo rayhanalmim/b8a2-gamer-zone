@@ -140,6 +140,7 @@ header{
 /* ------------------------section-3----------------- */
 .sec3{
     display: flex;
+    justify-content: space-between;
 }
 .sec3 img{
     width: 50%;
@@ -159,6 +160,57 @@ header{
 }
 .sec3 .img1{
     margin-left: 60px;
+}
+
+/* ------------------section-4-------------------- */
+.contant{
+    display: flex;
+    gap: 15px;
+    background-color: #FFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+}
+.section-4{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    background-color: rgba(255, 66, 165, 0.03);
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 150px;
+    padding-top: 40px;
+    align-items: center;
+    padding-bottom:  40px;
+}
+.contant:hover{
+    border: solid red 1px;
+}
+
+footer{
+    background-color: #0B0223;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.white{
+    color: #FFF;
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+}
+footer .display-flex{
+    gap: 30px;
+}
+footer .header-head{
+    margin-bottom: 30px;
+}
+footer .margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.color{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
 }
 
 /* --------------------RESPONSIVE------------------ */
@@ -183,7 +235,7 @@ header{
     .banner-container{
         flex-direction: column-reverse;
         justify-content: center;
-        margin-left: 47px;
+        margin-left: 37px;
         padding: 0px 10px 0px 0px;
         margin-bottom: 30px;
     }
@@ -211,11 +263,41 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
     .sec2-card .img{
         padding-left: 100px;
     }
-    
+    .sec3{
+        flex-direction: column-reverse;
+        padding-left: 50px;
+    }
+    .sec3 .img{
+        padding-left: 10px;
+    }
+    .sec3 img{
+        width: 70%;
+    }
+    .sec3 .img2{
+        left: 40px;
+    }
+    .section-4{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px 30px;
+        gap: 70px;
+        background-color: #FFF;
+        padding-top: 30px;
+        
+        padding-bottom: 60px;
+    }
+    .contant{
+        width: 75px;
+        height: 20px;
+        border-radius: 50px;
+    }
+    footer{
+        width: 109%;
+    }
 }
 
 /* -------------------tablet------------------- */
@@ -270,5 +352,31 @@ header{
     }
     .banner-info ul{
         padding-top: 20px;
+    }
+    .sec3{
+        flex-direction: column-reverse;
+        padding-left: 50px;
+    }
+    .sec3 .img{
+        padding-left: 10px;
+    }
+    .sec3 img{
+        width: 70%;
+    }
+    .sec3 .img2{
+        left: 40px;
+    }
+    .section-4{
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0px 30px;
+        gap: 50px;
+        background-color: #FFF;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .contant{
+        width: 75px;
+        height: 20px;
+        border-radius: 50px;
     }
 }
