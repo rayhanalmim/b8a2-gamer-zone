@@ -140,7 +140,7 @@ header{
 /* ------------------------section-3----------------- */
 .sec3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .sec3 img{
     width: 50%;
