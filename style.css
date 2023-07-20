@@ -173,20 +173,18 @@ header{
     border-radius: 50px;
 }
 .section-4{
-    display: grid;
-    grid-template-columns: repeat(5 , 1fr);
-    background-color: rgba(255, 66, 165, 0.03);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 200px;
     justify-content: center;
-    gap: 20px;
-    padding: 0px 150px;
-    padding-top: 40px;
     align-items: center;
-    padding-bottom:  40px;
+    gap: 30px;
+    padding-bottom: 50px;
 }
 .contant:hover{
     border: solid red 1px;
 }
-
+/* ----------------------footer---------------------- */
 footer{
     background-color: #0B0223;
     padding-top: 50px;
@@ -286,13 +284,13 @@ footer .margin{
         left: 40px;
     }
     .section-4{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 0px 30px;
         gap: 70px;
         background-color: #FFF;
         padding-top: 30px;
-        
-        padding-bottom: 60px;
+        padding-bottom: 100px;
     }
     .contant{
         width: 75px;
@@ -374,9 +372,10 @@ footer .margin{
         left: 40px;
     }
     .section-4{
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        padding: 0px 30px;
-        gap: 50px;
+        padding: 0px 50px;
+        gap: 30px;
         background-color: #FFF;
         padding-top: 50px;
         padding-bottom: 40px;
