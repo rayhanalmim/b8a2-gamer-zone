@@ -162,6 +162,30 @@ header{
 .sec3 .img1{
     margin-left: 60px;
 }
+.hover-info{
+    position: relative;
+    bottom: 165px;
+    left: 80px;
+    visibility: hidden;
+}
+.hover-info i{
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.hover-title{
+    color: white;
+}
+.hover-effect:hover .hover-info{
+    visibility: visible;
+    transition: 0.4s ease-in-out; 
+}
+.hover-img{
+    
+}
+.card-footer{
+    position: relative;
+    bottom: 50px;
+}
 
 /* ------------------section-4-------------------- */
 .contant{
@@ -337,7 +361,7 @@ footer .margin{
     }
     .sec2-card{
         display: flex;
-        padding: 0px 20px 0px 25px;
+        padding: 0px 0px 0px 50px;
         margin-bottom: 50px;
     }
     .banner-info h1{
