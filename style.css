@@ -179,8 +179,8 @@ header{
     visibility: visible;
     transition: 0.4s ease-in-out; 
 }
-.hover-img{
-    
+.hover-img:hover{
+    filter: brightness(60%);
 }
 .card-footer{
     position: relative;
